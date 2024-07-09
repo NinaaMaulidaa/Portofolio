@@ -83,6 +83,7 @@ a {
     width: fit-content;
     font-weight: 400;
     font-size: 0.9rem;
+    margin: 0 auto;
 }
 
 .pre-title::before {
@@ -187,9 +188,9 @@ nav ul li a {
     padding: var(--sectionPadding);
 }
 
-.services .pre-title {
+/* .services .pre-title {
     margin: 0 auto;
-}
+} */
 
 .services-title {
     text-align: center;
@@ -223,9 +224,11 @@ nav ul li a {
 /* Portofolio Section */
 #portofolios {
     padding: var(--sectionPadding);
+    text-align: center;
 }
 
 .portofolio {
+    text-align: center;
     border-radius: var(--itemBorderRadius);
     overflow: hidden;
     border: 1px solid var(--borderColor);
@@ -249,8 +252,13 @@ nav ul li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     gap: 1rem;
 }
+
+/* .portofolio .pre-title {
+    margin: 0 auto;
+} */
 
 .portofolio h4 {
     font-weight: 500;
@@ -282,6 +290,7 @@ nav ul li a {
 #skills {
     padding: var(--sectionPadding);
     background: var(--secondaryBackgroundColor);
+    
 }
 
 .skills-grid {
