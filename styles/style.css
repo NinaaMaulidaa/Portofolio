@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
 :root {
     --primaryTextColor : #232e35;
@@ -35,7 +35,8 @@ h1,h2,h3,h4,h5,h6, strong {
 
 p {
     font-size: 1rem;
-    line-height: 1.9rem;
+    line-height: 1.5rem;
+    text-align: justify;
 }
 
 p,span,label,input,textarea,li {
@@ -239,7 +240,7 @@ nav ul li a {
 }
 
 .portofolio-cover img {
-    width: 100%;
+    width: 70%;
     height: 100%;
     object-fit: cover;
 }
@@ -276,13 +277,13 @@ nav ul li a {
 .portofolio-tags {
     display: flex;
     gap: 1rem;
-    margin: 1rem 0;
+    margin: 1.5rem 0;
 }
 
 .portofolio-tags div {
     font-size: 0.9rem;
     border: 1px solid var(--borderColor);
-    padding: 0.4rem 1rem;
+    padding: 0.2rem 0.2rem;
     color: var(--secondaryTextColor);
 }
 
